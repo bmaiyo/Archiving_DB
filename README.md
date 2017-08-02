@@ -6,6 +6,9 @@ This is a simple project for Archiving Old Tables in Database.
 - Variables have been defined seperately on the and called on the code.
 # Running the Project
 - The project is run using the playbook file i.e main_playbook.yml
+```
+ansible-playbook -i /etc/hosts/databasehosts main_playbook.yml
+```
 - The project checks for the RDS MySQL archive files on the local path specified in the vars.yml file i.e /var/logs/
 - Prints the output of this.
 - The project then backs-up the data in this folder to the s3 bucket on our AWS account.
