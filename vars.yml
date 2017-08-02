@@ -1,0 +1,4 @@
+find_what: "ARCHIVE_*"
+find_where: /var/logs/
+aws_region: Oregon
+item.path: /var/logs/ARCHIVE_*
