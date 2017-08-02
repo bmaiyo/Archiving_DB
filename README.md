@@ -21,4 +21,7 @@ i.e we use the s3 sync module for this: aws s3 sync /path/to/files s3://s3bucket
 Use of SNS ansible module to send email incoporating the 'when' module: "when: delete_complete|succeeded"
 ```
 - A notificaton on email should also be received incase of failure using the SNS module as well.
+# API Reference
+- http://docs.ansible.com/ansible/latest/index.html
+
 
